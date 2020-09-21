@@ -8,7 +8,7 @@ namespace PartsUnlimited.Models
         // First Change
         [Key]
         public int CartItemId { get; set; }
-
+        // Second Change
         [Required]
         public string CartId { get; set; }
         public int ProductId { get; set; }
